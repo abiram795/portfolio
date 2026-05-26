@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DWES – Case Study</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .case-hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 26px;
+    }
+    .case-hero h1 { margin: 0; font-size: clamp(2.2rem, 4vw, 2.8rem); }
+    .case-hero p { color: var(--muted); max-width: 520px; }
+    .case-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      width: 260px;
+    }
+    .case-card a { display: block; text-align: center; margin-top: 10px; }
+    .case-img {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      margin: 14px 0;
+      object-fit: cover;
+    }
+    @media(max-width:768px){
+      .case-hero{flex-direction: column; align-items: flex-start;}
+      .case-card{width: 100%;}
+    }
+  </style>
+</head>
+<body>
+  <main style="width:min(1000px,95vw);margin:40px auto 80px;">
+    <a href="projects.html" class="btn btn-ghost btn-small" style="margin-bottom:14px;">← Back</a>
+
+    <section class="case-hero">
+      <div class="hero-text">
+        <h1>DWES</h1>
+        <p>Daily Work Exchange System that connects professionals with job opportunities through a clean, grid-based interface and efficient search experience.</p>
+      </div>
+      <div class="case-card">
+        <p><strong>Project Link</strong></p>
+        <a href="https://ocufoq-my-site-g71odggq-abiramsureshbabu.wix-vibe.com/" target="_blank" class="btn btn-primary">🔗 View Live</a>
+      </div>
+    </section>
+
+    <img class="case-img" src="images/dwes.png" alt="DWES dashboard">
+
+    <h2>Problem</h2>
+    <p>Job seekers often struggle to find relevant opportunities quickly due to scattered listings and inefficient search systems. This leads to wasted time and missed opportunities.</p>
+
+    <h2>Solution</h2>
+    <ul>
+      <li>Centralized platform for searching jobs based on keywords and location.</li>
+      <li>Smart filtering system for faster and more accurate job discovery.</li>
+      <li>Clean and minimal UI with grid-based layout for better usability.</li>
+      <li>Seamless navigation between jobs and companies sections.</li>
+    </ul>
+
+    <h2>Impact</h2>
+    <ul>
+      <li>Improved job search efficiency with faster results.</li>
+      <li>Simplified user experience with centralized listings.</li>
+      <li>Enhanced accessibility and usability for job seekers.</li>
+    </ul>
+  </main>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Hub – Case Study</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .case-hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 26px;
+    }
+    .case-hero h1 { margin: 0; font-size: clamp(2.2rem, 4vw, 2.8rem); }
+    .case-hero p { color: var(--muted); max-width: 520px; }
+    .case-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      width: 260px;
+    }
+    .case-card a { display: block; text-align: center; margin-top: 10px; }
+    .case-img {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      margin: 14px 0;
+      object-fit: cover;
+    }
+    @media(max-width:768px){
+      .case-hero{flex-direction: column; align-items: flex-start;}
+      .case-card{width: 100%;}
+    }
+  </style>
+</head>
+<body>
+  <main style="width:min(1000px,95vw);margin:40px auto 80px;">
+    <a href="projects.html" class="btn btn-ghost btn-small" style="margin-bottom:14px;">← Back</a>
+
+    <section class="case-hero">
+      <div class="hero-text">
+        <h1>Market Hub</h1>
+        <p>
+          A modern digital marketplace currently under development, focused on delivering fresh and organic products with a seamless and visually engaging shopping experience.
+        </p>
+      </div>
+      <div class="case-card">
+        <p><strong>Demo Link</strong></p>
+        <a href="https://rjjhdq-my-site-xrrnvex0-abiramsureshbabu.wix-vibe.com/" target="_blank" class="btn btn-primary">
+          🔗 View Demo
+        </a>
+      </div>
+    </section>
+
+    <img class="case-img" src="images/market-hub.png" alt="Market Hub storefront">
+
+    <h2>Status</h2>
+    <p>🚧 This project is currently under development. Features and UI are being actively improved.</p>
+
+    <h2>Tagline</h2>
+    <p>“Experience the art of freshness. Sourced daily from the earth to your table.”</p>
+
+    <h2>Problem</h2>
+    <p>
+      Many online marketplaces lack a personalized and engaging shopping experience, especially for fresh and organic products. Users often find it difficult to trust product quality and navigate through cluttered interfaces.
+    </p>
+
+    <h2>Solution</h2>
+    <ul>
+      <li>Designing a clean and modern UI focused on simplicity and user experience.</li>
+      <li>Showcasing products with strong visual storytelling to build trust.</li>
+      <li>Creating intuitive navigation for easy product discovery.</li>
+      <li>Building a scalable platform that supports future e-commerce features.</li>
+    </ul>
+
+    <h2>Future Scope</h2>
+    <ul>
+      <li>Secure checkout and payment integration.</li>
+      <li>User accounts and order tracking.</li>
+      <li>AI-based product recommendations.</li>
+      <li>Mobile-first optimization and performance enhancements.</li>
+    </ul>
+
+  </main>
+</body>
+</html>
+```

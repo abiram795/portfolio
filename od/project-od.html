@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Hub – Case Study</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .case-hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 26px;
+    }
+    .case-hero h1 { margin: 0; font-size: clamp(2.2rem, 4vw, 2.8rem); }
+    .case-hero p { color: var(--muted); max-width: 520px; }
+    .case-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      width: 260px;
+    }
+    .case-card a { display: block; text-align: center; margin-top: 10px; }
+    .case-img {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      margin: 14px 0;
+      object-fit: cover;
+    }
+    @media(max-width:768px){
+      .case-hero{flex-direction: column; align-items: flex-start;}
+      .case-card{width: 100%;}
+    }
+  </style>
+</head>
+<body>
+  <main style="width:min(1000px,95vw);margin:40px auto 80px;">
+    <a href="projects.html" class="btn btn-ghost btn-small" style="margin-bottom:14px;">← Back</a>
+
+    <section class="case-hero">
+      <div class="hero-text">
+        <h1>OD System</h1>
+        <p>
+          A modern digital platform for managing on-duty approvals, designed to streamline processes and improve efficiency.
+        </p>
+      </div>
+      <div class="case-card">
+        <p><strong>Check my website</strong></p>
+        <a href="https://1abx4f-my-site-oxbnwubi-snsabiram.wix-vibe-site.com/" target="_blank" class="btn btn-primary"> 
+          🔗 View Demo
+        </a>
+      </div>
+    </section>
+
+    <img class="case-img" src="images/od-system.png" alt="OD System approvals interface">
+
+    <h2>Status</h2>
+    <p>A digital On-Duty approval platform that simplifies request management between students, advisors, and HOD through a clean and transparent workflow.
+
+    <h2>Tagline</h2>
+    <p>“Simplifying academic approvals through digital workflows.
+
+    <h2>Problem</h2>
+    <p>
+      Students often face delays and confusion in getting On-Duty approvals due to manual paperwork and lack of real-time status updates. This causes communication gaps and inefficient academic administration.
+    </p>
+
+    <h2>Solution</h2>
+    <ul>
+      <li>Centralized platform for submitting and managing OD requests
+      <li>Role-based access for Student, Advisor, and HOD
+      <li>Real-time approval tracking and status updates
+      <li>Transparent workflow with faster request processing
+      <li>Clean dashboard interface for easy navigation
+    </ul>
+
+    <h2>Future Scope</h2>
+    <ul>
+      <li>Reduced approval delays with digital workflow
+      <li>Improved transparency in request status
+      <li>Simplified communication between students and faculty
+      <li>Enhanced efficiency in academic administration
+    </ul>
+
+  </main>
+</body>
+</html>
+```

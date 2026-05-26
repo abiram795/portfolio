@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head> 
+<body>
+  <div class="page-bg">
+    <div class="bg-grid"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+  </div>
+
+  <header class="nav">
+  <div class="logo">Tech<span>X</span></div>
+  <nav class="nav-links" id="nav-links">
+    <a href="#hero">Home</a>
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <!-- Buttons -->
+  <div class="nav-actions">
+    <a class="btn btn-outline" href="resume.pdf" download>Download Resume</a>
+    <a class="btn btn-outline" href="resume. pdf" target="_blank">View Resume</a>
+  </div>
+  <!-- Mobile menu toggle -->
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <div class="badge">
+          <span class="dot"></span>
+          <span>Open to opportunities</span>
+        </div>
+        <div class="profile-photo">
+          <img src="images/profile.jpg" alt="Portrait of Abiram" />
+        </div>
+        <p class="typewriter">Hi, I'm Abiram. Artificial Intelligence & Data Science Student</p>
+        <h1>Currently pursuing my course with a focus on learning and growth.</h1>
+        <p>A passionate and curious learner with a strong interest in technology and problem-solving. I enjoy building projects that challenge my creativity and help me grow. Always exploring new tools and ideas to create meaningful, real-world solutions.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">View projects</a>
+          <a class="btn btn-ghost" href="resume.pdf" download>Download Resume</a>  
+        </div>
+        <div class="hero-metrics">
+          <div class="metric-with-btn">
+            <div><strong>6</strong><span>Hackathons</span></div>
+            <a class="btn btn-ghost btn-small" href="hackathons.html">What I created</a>
+          </div>
+          <div><strong>1</strong><span>Internship</span></div>
+          <div><strong></strong><span></span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="stat-block">
+          <div class="stat-number">Strong problem solving</div>
+          <div class="stat-sub">Consistent learning</div>
+          <div class="stat-label">100% dedication</div>
+        </div>
+        <div class="device-mock">
+          <div class="device-top">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="device-body">
+            <div class="device-card">
+              <div class="device-title">Developer Portfolio</div>
+              <div class="device-value">Developer Portfolio</div>
+              <div class="device-pill">Learning New Skills</div>
+            </div>
+            <div class="device-chart">
+              <span style="--h:60%"></span>
+              <span style="--h:75%"></span>
+              <span style="--h:45%"></span>
+              <span style="--h:85%"></span>
+              <span style="--h:65%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section work" id="work">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Created projects</p>
+          <h2>Team projects we have worked on</h2>
+        </div>
+        <a class="link-arrow" href="projects.html">See all projects</a>
+      </div>
+      <div class="cards">
+        <article class="card" data-tilt>
+          <div class="card-top">
+            <span class="chip">Resume</span>
+            <span class="chip chip-ghost">Dashboard</span>
+          </div>
+          <div class="card-media">
+            <img src="images/resume-analyzer.png" alt="Resume Analyzer dashboard" />
+          </div>
+          <h3>Resume Analyzer</h3>
+          <p>An AI-powered tool that analyzes resumes and suggests improvements.</p>
+          <div class="card-footer">
+            <span>ResumeAI</span>
+            <span>2025</span>
+          </div>
+          <a class="btn btn-ghost btn-small" href="project-resume.html">Learn more</a>
+        </article>
+        <article class="card" data-tilt>
+          <div class="card-top">
+            <span class="chip">Web</span>
+            <span class="chip chip-ghost">Job platform</span>
+          </div>
+          <div class="card-media">
+            <img src="images/dwes.png" alt="DWES dashboard" />
+          </div>
+          <h3>DWES</h3>
+          <p>Daily Work Exchange System with clean, grid-based job discovery.</p>
+          <div class="card-footer">
+            <span>DWES</span>
+            <span>2026</span>
+          </div>
+          <a class="btn btn-ghost btn-small" href="project-dwes.html">Learn more</a>
+        </article>
+        <article class="card" data-tilt>
+          <div class="card-top">
+            <span class="chip">Web</span>
+            <span class="chip chip-ghost">E-commerce</span>
+          </div>
+          <div class="card-media">
+            <img src="images/market-hub.png" alt="Market Hub organic storefront" />
+          </div>
+          <h3>Market Hub</h3>
+          <p>Fresh-daily marketplace with curated organic provisions and bold storytelling.</p>
+          <div class="card-footer">
+            <span>Market Hub</span>
+            <span>2026</span>
+          </div>
+          <a class="btn btn-ghost btn-small" href="project-market.html">Learn more</a>
+        </article>
+        <article class="card" data-tilt>
+          <div class="card-top">
+            <span class="chip">Web</span>
+            <span class="chip chip-ghost">Internal tool</span>
+          </div>
+          <div class="card-media">
+            <img src="images/od-system.png" alt="OD System approvals interface" />
+          </div>
+          <h3>OD System</h3>
+          <p>Unified on-duty approvals with clear roles and fast routing.</p>
+          <div class="card-footer">
+            <span>OD System</span>
+            <span>2026</span>
+          </div>
+          <a class="btn btn-ghost btn-small" href="project-od.html">Learn more</a>
+        </article>
+      </div>
+    </section>
+    <section class="section about" id="about">
+      <div class="about-card">
+        <p class="eyebrow">About</p>
+        <h2>Aspiring developer passionate about building impactful and user-friendly solutions.</h2>
+        <p>I have a strong interest in technology and innovation.
+I enjoy creating projects, learning new skills, and building practical solutions.</p>
+        <div class="pill-row">
+          <span class="pill">Web Development</span>
+          <span class="pill">Java Programming</span>
+          <span class="pill">Problem Solving</span>
+          <span class="pill">UI/UX Basics</span>
+          <span class="pill">Firebase</span>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-metric">
+          <strong>Projects</strong>
+          <span>Built real-world applications focusing on functionality and user experience.</span>
+        </div>
+        <div class="about-metric">
+          <strong>Team work</strong>
+          <span>Collaborated with peers to develop projects and solve problems efficiently.</span>
+        </div>
+        <div class="about-metric">
+          <strong>Learning</strong>
+          <span>Continuously improving skills by exploring new technologies and tools.</span>
+        </div>
+      </div>
+    </section>
+    <section class="section skills" id="skills">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Capabilities</p>
+          <h2>Skills & Technologies</h2>
+        </div>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3>Core Skills</h3>
+          <ul>
+            <li>Problem solving</li>
+            <li>Logical thinking</li>
+            <li>Basic programming concepts</li>
+            <li>Debugging & troubleshooting</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Development Skills</h3>
+          <ul>
+            <li>Frontend Development</li>
+            <li>Responsive Design</li>
+            <li>Basic Animations</li>
+            <li>Clean UI Design</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML,CSS,JavaScript</li>
+            <li>Java,Python </li>
+            <li>Project Development</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <ul class="chips">
+            <li>VS Code</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>Chrome DevTools</li>
+            <li>Firebase Developer Tools</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">Let's Connect</p>
+        <h2>Let's Work Together</h2>
+        <p>I'm open to internships, projects, and collaborations. Feel free to reach out anytime.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:abiramsureshbabu@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/abiram-sureshbabu" target="_blank" rel="noreferrer">LinkedIn</a>
+    
+        </div>
+      </div>
+      <div class="contact-side">
+        <div class="side-row">
+          <span class="dot"></span>
+          <div>
+            <strong>waiting for opportunities</strong>
+            <p>Open to new opportunities</p>
+            </div>
+          </div>
+        <div class="side-row">
+          <span class="dot dot-amber"></span>
+          <div>
+            <strong>Preferred tools</strong>
+            <p>VS Code, GitHub, Figma</p>
+          </div>
+        </div>
+        <div class="side-row">
+          <span class="dot dot-blue"></span>
+          <div>
+            <strong>Availability</strong>
+            <p>Open to Internships & Freelance Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="logo">BY :<span>ABIRAM S</span></div>
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#work">created projects </a>
+      <a href="#skills">Tools</a>
+      <a href="mailto:abiramsureshbabu@gmail.com">Email</a>
+    </div>
+    <p class="footer-copy">© 2026 Abiram. Designed & developed by me</p>
+  </footer>
+
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close details">x</button>
+      <img class="modal-image" src="" alt="" />
+      <h3 id="modal-title"></h3>
+      <p class="modal-problem"></p>
+      <p class="modal-solution"></p>
+      <p class="modal-stack"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
